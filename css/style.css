@@ -73,6 +73,17 @@ a:focus {
 .tab-link {
     border: 2px solid #ef9199;
     border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.tab-link:hover {
+    background-color: white;
+    
+}
+.tab-link:hover a {
+    color: black;
 }
 
 .title {
@@ -83,11 +94,6 @@ a:focus {
     font-size: 1.5em;
     width: 80%;
     margin-left: 10%;
-}
-
-.container{
-    width:90%;
-    margin: 0 5%;
 }
 
 @media only screen and (max-width: 1200px) {
